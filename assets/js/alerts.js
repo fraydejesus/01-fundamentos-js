@@ -16,3 +16,7 @@
 const seleccion = confirm('Esta seguro de borrar esto?');
 console.log(seleccion);
 document.write(seleccion);
+
+// alert()
+// prompt()
+// confirm()
