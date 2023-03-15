@@ -1,4 +1,9 @@
-const arra = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+let juegos = ['Zelda', 'Mario', 'Metroid', 'Final Fantasy'];
+// console.log(juegos.length);
 
-console.log(arra[1][1]);
+let primero = juegos[2 - 2];
+let ultimo = juegos[juegos.length - 1]; // (.length) SE UTILIZA PARA SABER EL LARGO DEL ARREGLO
+
+console.log({ primero, ultimo });
+
 
