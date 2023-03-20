@@ -7,9 +7,7 @@ let personaje = {
         calle: 'Orlando Martinez',
         ubicacion: 'Guraricanos',
     },
-
     trajes: ['mark 1', 'mark 3', 'mark 5'],
-
     vivo: false,
 };
 
@@ -27,8 +25,16 @@ console.log('vivo', personaje[x]);
 // MAS DETALLES
 
 // (delete) PARA BORRAR UN ELEMENTO DEL OBJETO
-delete personaje.primelApellido
+delete personaje.primelApellido;
 console.log(personaje);
+
+
+// PONER QUE SE VEAN COMO PARES DE VALORES
+const empareja = Object.entries(personaje);
+console.log(empareja);
+
+// PARA CREAR UNA NUEVA PROPIEDAD EN EL OBJETO O AL MOMENTO DE LA EJECUCION
+
 
 
 
