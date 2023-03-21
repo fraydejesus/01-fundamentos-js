@@ -15,4 +15,17 @@ function saludar(nombre) {
     console.log('Hola ' + nombre);
 };
 
+
+const saludarFlecha = () => {
+    console.log('Hola Flecha ');
+}
+
+
+const saludarFlecha2 = (nombre) => {
+    console.log('Hola ' + nombre);
+}
+
+
 saludar('Fray'); // SE COLOCA EL VALOR DE (nombre)
+saludarFlecha();
+saludarFlecha2('Fray De Jesus');
