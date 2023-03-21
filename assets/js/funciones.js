@@ -13,7 +13,8 @@ const saludar2 = function () {
 // ASIGNAR UNA VARIABLE A LA FUNCION
 function saludar(nombre) {
     console.log('Hola ' + nombre);
-};
+    return 10;  // ES LO QUE RETORNA LA FUNCION (CUANDO NO TIENE return debuelve undefine)
+}; // El codigo despues del return  no se lee
 
 
 const saludarFlecha = () => {
@@ -29,3 +30,29 @@ const saludarFlecha2 = (nombre) => {
 saludar('Fray'); // SE COLOCA EL VALOR DE (nombre)
 saludarFlecha();
 saludarFlecha2('Fray De Jesus');
+
+
+// FUNCION DE SUMA
+function sumar(a, b) {
+    return a + b;
+}
+
+// FUNCION DE SUMA
+const sumar2 = (a, b) => {
+    return a + b;
+}
+
+// FUNCION DE FLECHA EN UNA SOLA LINEA
+const sumar3 = (a, b) => a + b;
+console.log(sumar3(1, 2));
+
+// FUNCIO QUE RETORNA UN NUMERO RANDOM
+function getAleatorio() {
+    return Math.random()
+};
+
+console.log(getAleatorio());
+
+// FUNCION DE FLECHA SIN LLAVES
+const getAleatorio2 = () => Math.random();
+console.log(getAleatorio2());
