@@ -33,7 +33,10 @@ console.log(personaje);
 const empareja = Object.entries(personaje);
 console.log(empareja);
 
-// PARA CREAR UNA NUEVA PROPIEDAD EN EL OBJETO O AL MOMENTO DE LA EJECUCION
+// CONGELA LAS ASIGNACIONES DE CADA UNA DE LAS PROPIEDADES DIRECTAS
+Object.freeze(personaje);
+console.log(personaje);
+
 
 
 
