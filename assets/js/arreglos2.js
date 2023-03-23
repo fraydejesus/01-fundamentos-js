@@ -36,3 +36,4 @@ console.log({ juegosBorrado, juegos });
 let buscarEnArreglo = juegos.indexOf('Metroid');
 console.log({ buscarEnArreglo });
 
+

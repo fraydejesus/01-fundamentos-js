@@ -56,3 +56,11 @@ console.log(getAleatorio());
 // FUNCION DE FLECHA SIN LLAVES
 const getAleatorio2 = () => Math.random();
 console.log(getAleatorio2());
+
+
+const hi = (nombre) => {
+    console.log('Hola ' + nombre);
+}
+hi('Fray');
+
+
