@@ -9,7 +9,7 @@
 //     console.log('A es menor a 10');
 // }
 
-// //console.log('Fin del programa');
+///console.log('Fin del programa');
 
 // const hoy = new Date(); // TRAE INFORMACION CON RESPECTO AL DIA
 // let dia2 = hoy.getDay(); // 0: DOMINGO, 1:LUNES, 2:MARTES, 3:MIERCOLES, 4:JUEVES, 5:VIERNES, 6:SABADO
@@ -34,3 +34,4 @@ const diasLetras = {
 const diasLetras2 = ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado',];
 
 console.log(diasLetras2[dia]);
+
