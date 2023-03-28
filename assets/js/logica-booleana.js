@@ -35,4 +35,4 @@ console.warn('or');
 console.log(true || true);
 console.log(!true || false);
 
-
+console.log(regresaTrue() || regresaFalse());
