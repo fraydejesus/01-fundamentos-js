@@ -13,3 +13,6 @@ const regresaFalse = () => {
 
 
 console.warn('Not o la negacion');
+console.log(true);
+console.log(!true); // (!) CAMBIA EL RESULTADO SI ES (true lo cambia a false y lo contrario)
+console.log(!false);
