@@ -11,8 +11,10 @@ const regresaFalse = () => {
     return false;
 }
 
+//---------------------------------------------------------------------------------------------------
 
 console.warn('Not o la negacion');
+
 console.log(true);
 console.log(!true); // (!) CAMBIA EL RESULTADO SI ES (true lo cambia a false y lo contrario)
 console.log(!false);
@@ -28,11 +30,23 @@ console.log(regresaTrue() && regresaFalse()); //EVALUA TODO YA QUE LA PRIMERA ES
 
 regresaTrue() && regresaFalse()  // ES PERMITIDO 
 
+//---------------------------------------------------------------------------------------------------
+
 
 // OR (||) REGRESA VERDADERO SIEMPRE Y CUANDO AYA 1 VALOR VERDADERO
 
 console.warn('or');
+
 console.log(true || true);
 console.log(!true || false);
 
 console.log(regresaTrue() || regresaFalse());
+console.log(regresaFalse() || regresaTrue());
+
+
+//---------------------------------------------------------------------------------------------------
+console.warn('Asignaciones');
+
+const soyUndefined = undefined;
+const soyNull = null;
+const soyFalso = false;
