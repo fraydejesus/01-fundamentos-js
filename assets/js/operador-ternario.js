@@ -22,6 +22,8 @@ if (horaActual >= horaApertura) {
     mensaje = `Esta cerrado, hoy abrimos a las ${horaApertura}`;
 }
 
+mensaje = ([]);
+
 console.log(horaApertura, mensaje)
 
 
