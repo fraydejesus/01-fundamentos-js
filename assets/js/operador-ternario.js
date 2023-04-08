@@ -16,13 +16,13 @@ let mensaje;
 
 horaApertura = ([0, 6].includes(dia)) ? 9 : 11 // SI LO DEL ARREGLO SE CUMPLE 
 
-if (horaActual >= horaApertura) {
-    mensaje = 'Esta abierto';
-} else {
-    mensaje = `Esta cerrado, hoy abrimos a las ${horaApertura}`;
-}
+// if (horaActual >= horaApertura) {
+//     mensaje = 'Esta abierto';
+// } else {
+//     mensaje = `Esta cerrado, hoy abrimos a las ${horaApertura}`;
+// }
 
-mensaje = ([]);
+mensaje = (horaActual >= horaApertura) ? 'Esta abierto' : `Esta cerrado, hoy abrimos a las ${horaApertura}`;
 
 console.log(horaApertura, mensaje)
 
